@@ -35,11 +35,6 @@ docker run -ti --rm -u `id -u`:`id -g` -v /home:/home -w `pwd` -e HOME=$HOME tex
 docker run -ti --rm -u `id -u`:`id -g` -v /home:/home -w `pwd` -e HOME=$HOME texlive/texlive xelatex gcr2022-example.tex
 ```
 
-TODO
-====
-
-* (вряд ли) вынести всё в шаблоны
-
 Donate
 ------
 
