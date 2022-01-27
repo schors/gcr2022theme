@@ -1,29 +1,27 @@
 \mode<presentation>
 
 % Settings
-\newfontfamily\tttravels{TT Travels}
-\AtBeginDocument{\setromanfont{Times New Roman}}
-\AtBeginDocument{\setsansfont{Roboto}}
-\AtBeginDocument{\setmonofont{DejaVu Sans Mono}}
-\setbeamercolor*{title page header}{fg=white}
-\setbeamerfont*{title}{size*={26pt}{32},family=\tttravels,series=\bf}
-\setbeamercolor*{author}{fg=white}
-\setbeamerfont*{author}{size*={16pt}{1},family=\tttravels}
 \definecolor{text}{HTML}{000000}
+
 \definecolor{ytext}{HTML}{ffd000}
 \definecolor{btext}{HTML}{4bc0ee}
-\setbeamercolor*{frametitle}{fg=text}
-\setbeamerfont*{frametitle}{size*={22pt}{1},family=\sffamily}
-\setbeamercolor{normal text}{fg=text}
-\setbeamerfont{normal text}{size*={16pt}{18},family=\sffamily}
-\AtBeginDocument{\usebeamerfont{normal text}}
 
+% for listings
+\definecolor{goplaybg}{HTML}{FFFFDD}
+\definecolor{goplayc}{HTML}{202224}
+\definecolor{goplayl}{HTML}{00add8}
+\definecolor{goplayh}{HTML}{EFEF9C}
+
+% pages
+\setbeamercolor*{title page header}{fg=white}
+\setbeamercolor*{author}{fg=white}
+\setbeamercolor*{frametitle}{fg=text}
+\setbeamercolor{normal text}{fg=text}
+
+% lists
 \setbeamercolor{itemize item}{fg=text}
 \setbeamercolor{itemize subitem}{fg=text}
 \setbeamercolor{alerted text}{fg=text}
-\setbeamerfont*{itemize/enumerate subbody}{parent=itemize/enumerate body}
-\setbeamerfont*{itemize/enumerate subsubbody}{parent=itemize/enumerate subbody}
-\setbeamerfont{alerted text}{series=\bfseries}
 
 \mode
 <all>
